@@ -76,6 +76,45 @@ ret
 ```
 ## Output  
 ![image](https://github.com/user-attachments/assets/05edf105-3ed9-4b3d-a167-b996682d731e)
+## And of 8 bit numbers ALP
+```
+assembly
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/cdb4fabd-05d3-47d4-9010-e9ede3a56a9b)
+## OR of 8 bit numbers ALP
+```
+assembly
+MOV AL,45H
+MOV BL,66H
+OR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/f6e9de57-2364-4e7e-a032-d002a9e2705e)
+## NOT of 8 bit number ALP
+```
+assembly
+MOV AL,65H
+NOT AL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/187aa42c-6995-4585-8ccb-c89b84899f53)
+## XOR of 8 bit number ALP
+```
+assembly
+MOV AL,66H
+MOV BL,77H
+XOR AL,BL
+HLT
+```
+## Output
+![image](https://github.com/user-attachments/assets/35d4d827-3d43-4860-b90c-62a087abb4be)
 ## Result :
   The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
